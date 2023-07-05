@@ -1,6 +1,6 @@
-# check_qnap1655_qad
-These are "quick and dirty" scripts to check a QNAP 1655 via check_by_ssh. If MIBS work for you, you should rather use them instead of these scripts...  
-The scripts might also work on other QNAPs as long as you can execute "/sbin/getsysinfo" as "admin" via shell.  
+# check_qnap_qad
+These are "quick and dirty" scripts to check a QNAP via check_by_ssh. If MIBS work for you, you should rather use them instead of these scripts...  
+The scripts might work on any QNAP as long as you can execute "/sbin/getsysinfo" as "admin" via shell.  
 As of today (05.07.2023) they all work fine on a "QNAP 1655" with OS "QTS 5.0.1 (20230421)"
 
 ***Prerequisites***
