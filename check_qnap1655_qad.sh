@@ -2,11 +2,11 @@
 
 SYSINFO="/sbin/getsysinfo"
 
-CPUTEMPFILE="/share/homes/lunetikk/monitoring/cputemp.txt"
-SYSTEMPFILE="/share/homes/lunetikk/monitoring/systemp.txt"
-FANFILE="/share/homes/lunetikk/monitoring/fan.txt"
-HDFILE="/share/homes/lunetikk/monitoring/hd.txt"
-VOLFILE="/share/homes/lunetikk/monitoring/vol.txt"
+CPUTEMPFILE="/share/homes/monitoring/monitoring/cputemp.txt"
+SYSTEMPFILE="/share/homes/monitoring/monitoring/systemp.txt"
+FANFILE="/share/homes/monitoring/monitoring/fan.txt"
+HDFILE="/share/homes/monitoring/monitoring/hd.txt"
+VOLFILE="/share/homes/monitoring/monitoring/vol.txt"
 
 > $CPUTEMPFILE
 > $SYSTEMPFILE
