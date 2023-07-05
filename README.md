@@ -9,11 +9,11 @@ As of today (05.07.2023) they all work fine on a "QNAP 1655" with OS "QTS 5.0.1 
   
 ***Usage***
 
-The script "check_qnap1655_qad.sh" has to be executed by "admin" because it needs elevated rights.  
-Log in as "admin", create the script, make it executeable (chmod 770 check_qnap1655_qad.sh) and create a cronjob (crontab -e)
+The script "check_qnap_qad.sh" has to be executed by "admin" because it needs elevated rights.  
+Log in as "admin", create the script, make it executeable (chmod 770 check_qnap_qad.sh) and create a cronjob (crontab -e)
 ```
 # example to run the script every 5 minutes
-*/5 * * * * /share/homes/admin/check_qnap1655_qad.sh
+*/5 * * * * /share/homes/admin/check_qnap_qad.sh
 ```
 
 All other scripts should be placed inside the new users home (example: monitoring => /share/homes/monitoring/)  
